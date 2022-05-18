@@ -8,8 +8,8 @@ mvn clean compile package
 ```
 
 ## Deploying the SPI
-To use this SPI in your Keycloak service, mount the output jar (`veea-spi-policy-enforcer-1.0.0.jar`) to `/opt/jboss
-/keycloak/standalone/deployments/veea-spi-policy-enforcer-1.0.0.jar`, [as described here](https://max2team.atlassian.net/wiki/spaces/VEEAH/pages/1010696802/Adding+KeyCloak+to+existing+dev+setup). 
+To use this SPI in your Keycloak service, mount the output jar (`custom-policy-spi-1.0.0.jar`) to `/opt/jboss
+/keycloak/standalone/deployments/custom-policy-spi-1.0.0.jar` 
 Restarting Keycloak should not be necessary.
 
 ## Using the SPI
